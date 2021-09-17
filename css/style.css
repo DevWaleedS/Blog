@@ -442,20 +442,26 @@
     /* End Footer  */
 
     /* Strat Media Query */
-    /* Extra small devices (portrait phones, less than 576px) */
-    @media (max-width: 575px) {
+    /* Extra small devices (portrait phones, less than 576px) */    
+    @media(max-width: 575px) {
+    
+    .special-heading {
+        font-size: 32px;
+        margin-left: 18px;
+        font-weight: bold;
+    }
     /* Start Header */
     .header .container {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: baseline;
     }
 
     .header .drobdown {
         display: block;
         position: relative;
-        left: 460px;
+        left: 335px;
         top: -30px;
     }
 
@@ -575,14 +581,14 @@
         flex-wrap: wrap;
     }
     .slider .container h1 {
-        margin-top: -220px;
-        font-size: 34px;
-        width: 83%;
-        text-align: center;
-        margin-left: 45px;
-    }
+    margin-top: -220px;
+    font-size: 34px;
+    width: 97%;
+    text-align: center;
+    margin-left: 0px;
+}
     .slider .container p {
-        font-size: 17px;
+        font-size: 15px;
     }
     /* End slider */
     /* End Header */
@@ -597,11 +603,16 @@
         flex-direction: column;
     }
     .design .design-text {
-        margin-top: 530px;
-        margin-bottom: 220px;
+        margin-top: 350px;
+        margin-bottom: 100px;
         text-align: center;
         width: 100%;
     }
+.design .design-text .text h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
     .design .design-text .text p {
         width: 100%;
     }
@@ -623,7 +634,7 @@
         height: 0;
     }
     .state .text {
-        margin-top: 370px;
+        margin-top: 250px;
         text-align: center;
     }
 
@@ -648,7 +659,7 @@
         justify-content: flex-end;
     }
     .about .about-text {
-        margin-top: 370px;
+        margin-top: 250px;
         width: 100%;
         text-align: center;
     }
@@ -656,7 +667,7 @@
     .about .about-text .text h2 {
         color: var(--Very-dark-blue);
         margin-bottom: 20px;
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 500;
     }
 
